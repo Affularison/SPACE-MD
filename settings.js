@@ -30,7 +30,7 @@ module.exports = {
   
   
   //⚠️ Premium users settings ⚠️
-   PREMIUM_KEY: process.env.PREMIUM_KEY || '11223344',
+   PREMIUM_KEY: process.env.PREMIUM_KEY || '',
    MAX_SESSIONS: parseInt(process.env.MAX_SESSIONS) || 100,
    EXPIRY: process.env.EXPIRY || ''
 };
