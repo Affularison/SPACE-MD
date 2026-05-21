@@ -8,7 +8,7 @@ module.exports = {
   BOT_ADMIN: process.env.BOT_ADMIN || '233206159544',
   
   //Bot web server port
-  PORT: parseInt(process.env.PORT) || 3000,
+  PORT: parseInt(process.env.PORT) || 8080,
   
   //Enter your Github username here (Compulsory unless you have a valid premium key)
   GITHUB_USERNAME: process.env.GITHUB_USERNAME || 'Affularison',
